@@ -8,6 +8,16 @@ html {
 *:after {
   box-sizing: inherit;
 }
+
+/* ---------------Utility Classes----------------- */
+
+.container{
+  width:70vw;
+  margin: 40px auto;
+  max-width:960px;
+}
+
+
 body{
       font-family: 'Lato', sans-serif;
       margin:0;
@@ -72,4 +82,47 @@ transition:.5s;
 
 header.primary nav a:hover, header.primary nav a:active{
 background-color:rgba(0,0,0,.8);
+}
+
+#intro{
+  border-bottom:1px dotted #c0c0c0;
+  padding-bottom:1rem;
+}
+
+#intro h2{
+  color:#F5C7B0;
+}
+
+#intro p{
+  
+}
+
+#content{
+  display:flex;
+  flex-directions:row;
+  justify-content:space-between;
+}
+
+
+
+
+/* Media Query Example */
+
+@media screen and (max-width:700px) {
+  
+  header.primary nav ul{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-around;
+    margin:0 auto;
+  }
+  
+  header.primary nav a{
+    displa:block;
+  }
+  
+  header.primary nav li{
+    margin-bottom:10px;
+  }
+  
 }
