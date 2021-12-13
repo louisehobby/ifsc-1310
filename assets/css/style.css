@@ -1,0 +1,50 @@
+/* ---------------Box Sizing----------------- */
+
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+
+body{
+    line-height:1.6;
+    background-color:#42230A;
+color:#000000;
+background-image: background-color: #42230A;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1600 800'%3E%3Cg %3E%3Cpolygon fill='%231f140a' points='1600 160 0 460 0 350 1600 50'/%3E%3Cpolygon fill='%233d2914' points='1600 260 0 560 0 450 1600 150'/%3E%3Cpolygon fill='%235c3d1f' points='1600 360 0 660 0 550 1600 250'/%3E%3Cpolygon fill='%237a5229' points='1600 460 0 760 0 650 1600 350'/%3E%3Cpolygon fill='%23996633' points='1600 800 0 800 0 750 1600 450'/%3E%3C/g%3E%3C/svg%3E");
+background-attachment: fixed;
+background-size: cover;
+    
+}
+
+h1{ 
+    font-family: 'Bakbak One';
+}
+
+#wrap{
+    width:70vw;
+    max-width:900px;
+    margin:40px auto;
+    background:rgba(222,184,135,0.3);
+    border:double 3px #000000;
+    padding:40px;
+}
+
+h1{
+    font-size:2.2rem;
+    text-align:center;
+    
+}
+
+
+h2{
+    border-bottom:1px solid #000000;
+}
+
+a{
+    color:#000000;
+}

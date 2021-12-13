@@ -52,12 +52,12 @@ img {
 /* ----- Global Styles ---- */
 
 body {
-  font-family: "Lato", sans-serif;
+  font-family: "Montserrat", sans-serif;
   margin: 0;
 }
 
 header.primary {
-  background-color: #B5BEFA;
+  background-color: #333766;
   text-align: center;
   color: #ffffff;
   text-shadow: 2px 2px #000000;
@@ -68,7 +68,7 @@ header.primary {
 
 header.primary::before {
   content: "";
-  background-image: url("https://assets.codepen.io/7248/dragon-in-space.jpg");
+  background-image: url("https://www.teslarati.com/wp-content/uploads/2019/09/Crew-Dragon-DM-1-orbit-tall-pano-SpaceX-crop-3.jpg");
   background-size: cover;
   position: absolute;
   top: 0px;
@@ -86,7 +86,7 @@ header.primary h1 {
 
 header.primary h1 a {
   color: #ffffff;
-  background-image: url("https://assets.codepen.io/7248/logo-2.png");
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/2/2e/SpaceX_logo_black.svg");
   display: block;
   width: 450px;
   height: 70px;
@@ -153,7 +153,7 @@ section#content h2{
 /* ------------- Articles --------------- */
 
 section#articles {
-  background: #AD9F8E;
+  background: #333766;
 }
 
 section#articles .container {
@@ -236,7 +236,7 @@ section#articles h2 {
 
 /* Attribute Selector */
 aside[role="complementary"] {
-  background-color: #ADA08E;
+  background-color: #333766;
   color: #ffffff;
   padding: 2.5em;
 }
